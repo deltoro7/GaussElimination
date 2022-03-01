@@ -31,7 +31,7 @@ for row_used in range(0,n):
         for row_worked_on_column in range(row_work_on-1, n+1):
             print("Third test")
             A[row_work_on][row_worked_on_column] = elimination_factor * A[row_used][row_worked_on_column] + A[row_work_on][row_worked_on_column]
-        A[row_used][row_work_on] = A[row_worked_on_column][elimination_column] + A[row_used][row_work_on]
+    
 
 
 
